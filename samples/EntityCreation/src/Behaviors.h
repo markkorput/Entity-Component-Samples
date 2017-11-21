@@ -8,7 +8,7 @@
 #pragma once
 
 #include "entityx/Entity.h"
-#include "Behavior.h"
+#include "soso/Behavior.h"
 
 namespace soso {
 

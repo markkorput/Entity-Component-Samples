@@ -9,7 +9,7 @@
 
 #include "entityx/Entity.h"
 #include "Components.h"
-#include "Expires.h"
+#include "soso/Expires.h"
 #include "cinder/Easing.h"
 
 namespace soso {

@@ -7,6 +7,7 @@
 
 #pragma once
 
+#include "cinder/app/App.h"
 #include "entityx/Entity.h"
 
 namespace soso {
@@ -135,12 +136,6 @@ inline void removeBehavior( entityx::Entity entity, BehaviorBase *behavior )
       return element.get() == behavior;
     } ), b.end() );
   }
-}
-
-void BehaviorBase::remove()
-{
-  removeBehavior(entity(), this);
-  _entity.invalidate();
 }
 
 } // namespace soso
