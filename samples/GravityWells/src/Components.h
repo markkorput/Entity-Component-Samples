@@ -7,6 +7,7 @@
 
 #pragma once
 
+#include "cinder/gl/gl.h"
 #include "entityx/Entity.h"
 
 ///

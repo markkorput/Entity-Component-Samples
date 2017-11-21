@@ -7,7 +7,7 @@
 
 #include "Systems.h"
 #include "Components.h"
-#include "VerletBody.h"
+#include "soso/VerletBody.h"
 
 #include "cinder/Rand.h"
 
@@ -83,4 +83,3 @@ void soso::enforceBoundaries(entityx::EntityManager &entities)
     }
   }
 }
-

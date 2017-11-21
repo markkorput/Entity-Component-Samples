@@ -5,8 +5,9 @@
 //
 //
 
+#include "cinder/gl/gl.h"
 #include "Behaviors.h"
-#include "VerletBody.h"
+#include "soso/VerletBody.h"
 
 using namespace soso;
 using namespace cinder;

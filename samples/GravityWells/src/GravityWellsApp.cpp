@@ -3,10 +3,10 @@
 #include "cinder/gl/gl.h"
 
 #include "entityx/Entity.h"
-#include "VerletPhysicsSystem.h"
-#include "VerletBody.h"
-#include "BehaviorSystem.h"
-#include "Behavior.h"
+#include "soso/VerletPhysicsSystem.h"
+#include "soso/VerletBody.h"
+#include "soso/BehaviorSystem.h"
+#include "soso/Behavior.h"
 
 #include "Behaviors.h"
 #include "Components.h"

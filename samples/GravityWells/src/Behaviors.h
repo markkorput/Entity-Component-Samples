@@ -7,7 +7,8 @@
 
 #pragma once
 
-#include "Behavior.h"
+#include "cinder/gl/gl.h"
+#include "soso/Behavior.h"
 
 ///
 /// @file Custom behaviors for the GravityWells sample application.
